@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 100%;
+	background-image: url(images/back.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-left: 5%;
+	padding-right: 5%;
+	box-sizing: border-box;
+}
+.logo{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   opacity: 0;
+} 
+.block{
+	height: 50vh;
+	width: 100%;
+	background-image: url(images/white.jpg);
+	background-position: center;
+	background-size: cover;
+	box-sizing: border-box;
+}
+.text{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   opacity: 1;
+} 
+.proposition{
+   opacity: 1;
+   position: absolute;
+   left:16%;
+} 
+.column2 {
+	margin-top: 4%;
+  	float: left;
+  	width: 35%;
+  	height: 500px;
+}
+.column3 {
+	margin-top: 4%;
+  	float: left;
+  	width: 15%;
+  	height: 500px;
+}
+.photo{
+	max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+.column2 > p{
+	opacity: 0.85;
+	color: #858585; 
+	font-family: 'Microsoft YaHei Light', sans-serif; font-size: 20px; 
+	line-height: 14px; 
+	margin: 0 0 24px; 
+	text-align: justify; 
+	text-justify: inter-word;
+}
+.column2 > h1{
+	color: #111;font-family: 'Microsoft YaHei Light', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 1;
+	text-align: left;
+	margin-bottom: 45px;
+}
+/*buy buttons style*/
+.card {
+   	display: block;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ 	max-width: 300px;
+  	margin-top: 0px;
+ 	margin: auto;
+    text-align: center;
+ 	font-family: arial;
+}
+
+.price {
+	color: grey;
+	font-size: 22px;
+}
+
+.card button {
+	margin-top: 10px;
+  	border: none;
+  	outline: 0;
+  	padding: 12px;
+  	color: white;
+  	background-color: #e28743;
+  	text-align: center;
+  	cursor: pointer;
+  	width: 100%;
+  	font-size: 18px;
+}
+
+.card button:hover {
+  	opacity: 0.7;
+}
+.container2{
+	margin-top: 100px;
+	height: 50vh;
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	padding: 50px;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+.bblock{
+	height: 15vh;
+	width: 100%;
+	background-image: url(images/white.jpg);
+	background-position: center;
+	background-size: cover;
+	box-sizing: border-box;
+}
